@@ -28,3 +28,6 @@ spec:
             configMapKeyRef:
               name: the-map
               key: enableRisky
+        envFrom:
+        - configMapRef:
+            name: the-map
